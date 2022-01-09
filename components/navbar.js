@@ -138,10 +138,10 @@ const Navbar = props => {
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="https://discord.gg/Bd276KufhC" passHref>
-                  <MenuItem as={Link}><BsDiscord/>{" "}Discord</MenuItem>
+                  <MenuItem as={Link}><BsDiscord/>Discord</MenuItem>
                 </NextLink>
                 <NextLink href="https://t.me/aumso" passHref>
-                  <MenuItem as={Link}><BsTelegram/>{" "}Telegram</MenuItem>
+                  <MenuItem as={Link}><BsTelegram/>Telegram</MenuItem>
                 </NextLink>
                 <NextLink href="" passHref>
                   <MenuItem as={Link}>Warframe</MenuItem>
@@ -151,7 +151,7 @@ const Navbar = props => {
                   href="https://github.com/"
                 >
                   <BsGithub/>
-                  {" "}View Source
+                  View Source
                 </MenuItem>
               </MenuList>
             </Menu>
