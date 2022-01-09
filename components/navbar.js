@@ -16,6 +16,7 @@ import {
 } from '@chakra-ui/react'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggle from './theme-toggle'
+import {BsDiscord, BsTelegram, BsGithub} from "react-icons/bs"
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
   const active = path === href
@@ -81,6 +82,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
+            <BsDiscord/>
             Discord
           </LinkItem>
           <LinkItem
@@ -92,6 +94,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
+            <BsTelegram />
             Telegram
           </LinkItem>
           <LinkItem
@@ -107,13 +110,14 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://github.com/aumsoa/aumso-site"
+            href="https://github.com/"
             path={path}
             display="inline-flex"
             alignItems="center"
             style={{ gap: 4 }}
             pl={2}
           >
+            <BsGithub />
             Source
           </LinkItem>
         </Stack>
@@ -134,19 +138,20 @@ const Navbar = props => {
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="https://discord.gg/Bd276KufhC" passHref>
-                  <MenuItem as={Link}>Discord</MenuItem>
+                  <MenuItem as={Link}><BsDiscord/>{" "}Discord</MenuItem>
                 </NextLink>
                 <NextLink href="https://t.me/aumso" passHref>
-                  <MenuItem as={Link}>Telegrma</MenuItem>
+                  <MenuItem as={Link}><BsTelegram/>{" "}Telegram</MenuItem>
                 </NextLink>
                 <NextLink href="" passHref>
                   <MenuItem as={Link}>Warframe</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/aumsoa/aumso-site"
+                  href="https://github.com/"
                 >
-                  View Source
+                  <BsGithub/>
+                  {" "}View Source
                 </MenuItem>
               </MenuList>
             </Menu>
