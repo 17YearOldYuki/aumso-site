@@ -27,7 +27,7 @@ const Home = () => (
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title" fontFamily="Fira Code" fontSize="25px">
-              Ivan
+              Nikita
             </Heading>
             <Box borderRadius="lg" p={0} textAlign="center"/>
             <Paragraph1>.aumso ( web-developer, streamer )</Paragraph1>
