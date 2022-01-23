@@ -110,7 +110,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://github.com/"
+            href="https://github.com/aumsoa/aumso-site"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -143,12 +143,9 @@ const Navbar = props => {
                 <NextLink href="https://t.me/aumso" passHref>
                   <MenuItem as={Link}><BsTelegram/>{" "}Telegram</MenuItem>
                 </NextLink>
-                <NextLink href="" passHref>
-                  <MenuItem as={Link}>Warframe</MenuItem>
-                </NextLink>
                 <MenuItem
                   as={Link}
-                  href="https://github.com/"
+                  href="https://github.com/aumsoa/aumso-site"
                 >
                   <BsGithub/>
                   {" "}View Source
