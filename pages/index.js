@@ -56,7 +56,7 @@ const Home = () => (
             About
           </Heading>
           <Paragraph fontFamily="Fira Code" fontSize="16px">
-          Greetings my name is Ivan my alias aumso. I'm 16 years old. 
+          Greetings my name is Nikita my alias aumso. I'm 16 years old. 
           I'm a back-end developer. I'm in college 1 a course at a Web developer. 
           I live in Russia in the city of Rostov-on-Don. 
           I like to read manga, books and play video games.
