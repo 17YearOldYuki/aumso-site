@@ -82,7 +82,6 @@ const Home = () => (
               width='200px'
               border='2px'
               color={ButtonColor}
-              borderColor='green.500'
               >
                 Communication with me
               </Button>
