@@ -30,7 +30,10 @@ const Home = () => (
               Nikita
             </Heading>
             <Box borderRadius="lg" p={0} textAlign="center"/>
-            <Paragraph1>.aumso ( web-developer, streamer )</Paragraph1>
+            <Paragraph1>Yuki_sun 
+              • back-end developer
+              • Streamer
+            </Paragraph1>
           </Box>
           <Box
             flexShrink={0}
@@ -68,7 +71,7 @@ const Home = () => (
           I like strawberries, banana, figs from fruits.
           </Paragraph>
           <Paragraph fontFamily="Fira Code" fontSize="16px">
-          I am currently studying C # and the work of React/Next JS. 
+          I am currently studying React and the work of Java. 
           I am also going to collect setup well will take about 3-5 years :/( maybe less),
           if it is interesting then at the end there will be a button.
           </Paragraph>
