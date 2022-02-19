@@ -75,7 +75,7 @@ const Home = () => (
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="https://t.me/aumso">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="white">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="b988db">
               Communication with me
               </Button>
             </NextLink>
