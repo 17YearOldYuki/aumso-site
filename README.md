@@ -1,6 +1,6 @@
 # My Portfolio
 
-![alt text](https://)
+![alt text](https://https://github.com/aumsoa/aumso-site/blob/main/public/Head.png)
 
 <p>Hi, this is my portfolio.</p>
 
