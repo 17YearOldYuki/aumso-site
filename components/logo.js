@@ -30,7 +30,7 @@ const Logo = () => {
                     fontSize="26px"
                     fontWeight='bold'
                     ml={2}
-                    >.aumso</Text>
+                    >aumso</Text>
                 </LogoBox>
             </a>
         </Link>

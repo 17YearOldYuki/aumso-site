@@ -30,9 +30,7 @@ const Home = () => (
               Nikita
             </Heading>
             <Box borderRadius="lg" p={0} textAlign="center"/>
-            <Paragraph1>Yuki_sun 
-              • back-end developer
-              • Streamer
+            <Paragraph1>aumso ( back-end developer | Streamer )
             </Paragraph1>
           </Box>
           <Box
