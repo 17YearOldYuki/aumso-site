@@ -4,12 +4,11 @@
 
 <p>Hi, this is my portfolio.</p>
 
-<p>I use:
-    • Chakra-UI
-    • Next.js
-    • React Icons
-    • Guide craftzdog / Dev as Life
-</p>
+<p>I use: </p>
+<p>    • Chakra-UI</p>
+<p>    • Next.js</p>
+<p>    • React Icons</p>
+<p>    • Guide craftzdog / Dev as Life</p>
 
 <p>Thanks CraftzDog for the guide to portfolio.</p>
 <P>His social networks: 
