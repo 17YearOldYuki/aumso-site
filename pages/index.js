@@ -14,6 +14,7 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import Paragraph1 from '../components/paragraph1'
 
+const ButtonColor = useColorModeValue('white', 'blue.800')
 const Home = () => (
     <Layout>
       <Container>
@@ -74,9 +75,16 @@ const Home = () => (
           if it is interesting then at the end there will be a button.
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="https://t.me/aumso">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="blue.800">
-              Communication with me
+            <NextLink href="https://t.me/aumso"> 
+              <Button
+              size='md'
+              height='48px'
+              width='200px'
+              border='2px'
+              color={ButtonColor}
+              borderColor='green.500'
+              >
+                Communication with me
               </Button>
             </NextLink>
           </Box>
