@@ -99,17 +99,6 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             _target="_blank"
-            href="https://www.canva.com/design/DAE2FikgFKU/09NAAza69naQk-52X1q9uA/view?utm_content=DAE2FikgFKU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
-            path={path}
-            display="inline-flex"
-            alignItems="center"
-            style={{ gap: 4 }}
-            pl={2}
-          >
-            ZXC Stars
-          </LinkItem>
-          <LinkItem
-            _target="_blank"
             href="https://github.com/aumsoa/aumso-site"
             path={path}
             display="inline-flex"
