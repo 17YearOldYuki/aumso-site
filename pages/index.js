@@ -14,7 +14,6 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import Paragraph1 from '../components/paragraph1'
 
-const ButtonColor = useColorModeValue('white', 'blue.800')
 const Home = () => (
     <Layout>
       <Container>
@@ -81,7 +80,7 @@ const Home = () => (
               height='48px'
               width='200px'
               border='2px'
-              color={ButtonColor}
+              borderColor='green.500'
               >
                 Communication with me
               </Button>
