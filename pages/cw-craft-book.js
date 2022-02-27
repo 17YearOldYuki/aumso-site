@@ -1,10 +1,16 @@
-<docktype! html>
-<html>
-<head>
-   <title>SWCRAFT</title>
-</head>
-<body>
-<p>stock:
+import { Container, Heading} from '@chakra-ui/react'
+import Layout from '../components/layouts/article'
+import Paragraph from '../components/paragraph'
+
+const swcraft = () => {
+   <Layout>
+      <Box display={{ md: 'flex' }}>
+        <Box flexGrow={1}>
+          <Heading as="h2" variant="page-title">
+            SWCrafts
+          </Heading>
+          <p>
+          stock:
   tradeable: true
   ingredient: true
   01:
@@ -1478,6 +1484,9 @@ craftbook:
   x:
     mana: 0
     items:
-<p>
-</body>
-</html>
+          </p>
+        </Box>
+   </Layout>
+}
+
+export default swcraft
