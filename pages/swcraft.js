@@ -9,19 +9,19 @@ const SWCraft = () => (
           <Heading as="h2" variant="page-title">
             SWCrafts
           </Heading>
-          <Text>
-          stock:
-  tradeable: true
-  ingredient: true
-  01:
-    name: Thread
-  02:
-    name: Stick
-  03:
-    name: Pelt
-  04:
-    name: Bone
-  05:
+  
+  <p>        stock:</p>
+  <p>tradeable: true</p>
+  <p>ingredient: true</p>
+  <p>01:</p>
+    <p>name: Thread<p>
+ <p> 02: </p>
+ <p>   name: Stick </p>
+  <p>03:</p>
+    <p>name: Pelt</p>
+  <p>04:</p>
+   <p>name: Bone</p>
+  <p>05:</p>
     name: Coal
   06:
     name: Charcoal
