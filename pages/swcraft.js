@@ -9,7 +9,7 @@ const SWCraft = () => (
           <Heading as="h2" variant="page-title">
             SWCrafts
           </Heading>
-          <p align="left">
+          <pre>
           stock:
   tradeable: true
   ingredient: true
@@ -1484,7 +1484,7 @@ craftbook:
   x:
     mana: 0
     items:
-          </p>
+          </pre>
       </Box>
     </Box>
 </Layout>
