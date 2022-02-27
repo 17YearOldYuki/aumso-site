@@ -1,4 +1,4 @@
-import { Container, Heading} from '@chakra-ui/react'
+import { Container, Box, Heading} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 
