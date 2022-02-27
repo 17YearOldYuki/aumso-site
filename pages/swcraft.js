@@ -1485,8 +1485,9 @@ craftbook:
     mana: 0
     items:
           </p>
-        </Box>
-   </Layout>
+      </Box>
+    </Box>
+</Layout>
 )
 
 export default SWCraft
