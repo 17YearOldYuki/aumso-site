@@ -109,6 +109,17 @@ const Navbar = props => {
             <BsGithub />
             Source
           </LinkItem>
+<LinkItem
+            _target="_blank"
+            href="/cw-craft-book.html"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+              SW Crafts
+          </LinkItem>
         </Stack>
 
         <Box flex={1} align="right">
