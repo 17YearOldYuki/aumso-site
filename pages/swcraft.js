@@ -2,7 +2,7 @@ import { Container, Heading} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 
-const swcraft = () => (
+const SWCraft = () => (
    <Layout>
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
@@ -1489,4 +1489,4 @@ craftbook:
    </Layout>
 )
 
-export default swcraft
+export default SWCraft
