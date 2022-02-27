@@ -9,7 +9,7 @@ const SWCraft = () => (
           <Heading as="h2" variant="page-title">
             SWCrafts
           </Heading>
-          <p align:{left}>
+          <p align:"lef">
           stock:
   tradeable: true
   ingredient: true
