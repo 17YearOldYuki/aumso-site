@@ -1,4 +1,4 @@
-import { Container, Box, Heading} from '@chakra-ui/react'
+import { Container, Box, Heading, Text} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 
@@ -9,7 +9,7 @@ const SWCraft = () => (
           <Heading as="h2" variant="page-title">
             SWCrafts
           </Heading>
-          <pre>
+          <Text>
           stock:
   tradeable: true
   ingredient: true
@@ -1484,7 +1484,7 @@ craftbook:
   x:
     mana: 0
     items:
-          </pre>
+          </Text>
       </Box>
     </Box>
 </Layout>
