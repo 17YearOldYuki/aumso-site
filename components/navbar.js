@@ -111,7 +111,7 @@ const Navbar = props => {
           </LinkItem>
 <LinkItem
             _target="_blank"
-            href="/cw-craft-book.html"
+            href="/swcraft"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -150,6 +150,9 @@ const Navbar = props => {
                   <BsGithub/>
                   {" "}View Source
                 </MenuItem>
+                 <NextLink href="/swcraft" passHref>
+                  <MenuItem as={Link}>SWCraft</MenuItem>
+                </NextLink>
               </MenuList>
             </Menu>
           </Box>
