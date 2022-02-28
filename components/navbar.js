@@ -135,7 +135,7 @@ const Navbar = props => {
               />
               <MenuList>
                 <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                  <MenuItem as={Link}>About me</MenuItem>
                 </NextLink>
                 <NextLink href="https://discord.gg/Bd276KufhC" passHref>
                   <MenuItem as={Link}><BsDiscord/>{" "}Discord</MenuItem>
